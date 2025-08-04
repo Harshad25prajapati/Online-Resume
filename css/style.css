@@ -113,7 +113,8 @@ img {
   .home1 {
     flex-direction: column;
   }
-  .home2{
+
+  .home2 {
     width: 100% !important;
   }
 
@@ -191,7 +192,8 @@ img {
 
   row-gap: 16px;
 }
-.home1{
+
+.home1 {
   width: 85%;
   margin: auto;
   margin-top: 75px;
@@ -199,9 +201,16 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
 }
-.home2{
+
+.home2 {
   width: 50%;
 }
+
+.home2 img {
+  width: 400px;
+  height: 350px;
+}
+
 .home-data {
   align-self: center;
 }
